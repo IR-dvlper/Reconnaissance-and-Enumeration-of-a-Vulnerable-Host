@@ -1,4 +1,4 @@
-# Reconnaissance-and-Enumeration-of-a-Vulnerable-Host
+# Reconnaissance and Enumeration of a Vulnerable Host
 A black-box reconnaissance and vulnerability assessment exercise against Metasploitable 2, an intentionally vulnerable VM, conducted from Kali Linux in an isolated VirtualBox lab. Demonstrates the early stages of the Penetration Testing Execution Standard (PTES) — intelligence gathering, enumeration, and vulnerability analysis.
 
 ---
