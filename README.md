@@ -1,10 +1,10 @@
 # Reconnaissance-and-Enumeration-of-a-Vulnerable-Host
-A black-box reconnaissance and vulnerability assessment exercise against Metasploitable 2, an intentionally vulnerable VM, conducted from Kali Linux in an isolated VirtualBox lab. Demonstrates the early stages of the Penetration Testing Execution Standard (PTES) — intelligence gathering, enumeration, and vulnerability analysis — without exploitation.
+A black-box reconnaissance and vulnerability assessment exercise against Metasploitable 2, an intentionally vulnerable VM, conducted from Kali Linux in an isolated VirtualBox lab. Demonstrates the early stages of the Penetration Testing Execution Standard (PTES) — intelligence gathering, enumeration, and vulnerability analysis.
 
 ---
 
 ## Objective
-To simulate the reconnaissance and enumeration stages and a vulnerability assessment on a deliberately vulnerable host, identify and analyse real CVEs affecting the discovered services, and document how organisations could mitigate the risks found. This demonstrates the process a cyber security risk analyst might follow when assessing an organisation's systems.
+To simulate the reconnaissance and enumeration stages and a vulnerability assessment on a deliberately vulnerable host, identify and analyse real CVEs affecting the discovered services, highlighting the potential consequences they present and document how organisations could mitigate the risks found. This demonstrates the process a cyber security risk analyst might follow when assessing an organisation's systems.
 
 ## Tools Used
 
@@ -23,7 +23,7 @@ To simulate the reconnaissance and enumeration stages and a vulnerability assess
 - 23 open ports with 7 services enumerated in depth
 - 8 CVEs identified, with CVSS ranging from low to critical
 - Critical vulnerability found - vsFTPd 2.3.4 backdoor grants unauthenticated root-level shell access. Requires immediate mitigation
-- SMB null-session access confirmed independently across three tools (smbclient, Nmap NSE, enum4linux), exposing password policy, and enabling a remote command execution vulnerability (CVE-2007-2447) via `username map script`
+- SMB null-session access confirmed independently across three tools (smbclient, Nmap NSE, enum4linux), exposing the password policy and enabling a remote command execution vulnerability (CVE-2007-2447).
 - Common vulnerabilities across services: outdated/unsupported software, plaintext protocols and weak or absent authentication controls
 
 ## Skills Demonstrated
